@@ -1,0 +1,359 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jun 27 09:12:45 2026
+# Process ID: 19548
+# Current directory: C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1
+# Command line: vivado.exe -log bse_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bse_wrapper.tcl
+# Log file: C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/bse_wrapper.vds
+# Journal file: C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bse_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mcrye/AppData/Roaming/Xilinx/Vivado/bse_zcu104/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 299.648 ; gain = 36.656
+Command: synth_design -top bse_wrapper -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25012 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 418.398 ; gain = 106.488
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bse_wrapper' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/hdl/bse_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'bse' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:13]
+INFO: [Synth 8-6157] synthesizing module 'bse_axi_dma_0_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_axi_dma_0_0' (1#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_axi_dma_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_dma_0' of module 'bse_axi_dma_0_0' requires 64 connections, but only 59 given [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:162]
+INFO: [Synth 8-6157] synthesizing module 'bse_byte_statistics_engi_0_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_byte_statistics_engi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_byte_statistics_engi_0_0' (2#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_byte_statistics_engi_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'byte_statistics_engi_0' of module 'bse_byte_statistics_engi_0_0' requires 32 connections, but only 30 given [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:222]
+INFO: [Synth 8-6157] synthesizing module 'bse_ps8_0_axi_periph_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:490]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1X1WHSN' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:1024]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1X1WHSN' (3#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:1024]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_ACED8Y' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:1149]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_ACED8Y' (4#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:1149]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_MP6HPP' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:1281]
+INFO: [Synth 8-6157] synthesizing module 'bse_auto_ds_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_auto_ds_0' (5#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bse_auto_pc_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_auto_pc_0' (6#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_MP6HPP' (7#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:1281]
+INFO: [Synth 8-6157] synthesizing module 'bse_xbar_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_xbar_0' (8#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_xbar_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'xbar' of module 'bse_xbar_0' requires 40 connections, but only 38 given [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:983]
+INFO: [Synth 8-6155] done synthesizing module 'bse_ps8_0_axi_periph_0' (9#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:490]
+INFO: [Synth 8-6157] synthesizing module 'bse_rst_ps8_0_100M_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_rst_ps8_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_rst_ps8_0_100M_0' (10#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_rst_ps8_0_100M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_ps8_0_100M' of module 'bse_rst_ps8_0_100M_0' requires 10 connections, but only 6 given [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:332]
+INFO: [Synth 8-6157] synthesizing module 'bse_smartconnect_0_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_smartconnect_0_0' (11#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bse_zynq_ultra_ps_e_0_0' [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bse_zynq_ultra_ps_e_0_0' (12#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/.Xil/Vivado-19548-DESKTOP-6JDSJ0D/realtime/bse_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'zynq_ultra_ps_e_0' of module 'bse_zynq_ultra_ps_e_0_0' requires 83 connections, but only 79 given [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:408]
+INFO: [Synth 8-6155] done synthesizing module 'bse' (13#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/synth/bse.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'bse_wrapper' (14#1) [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/hdl/bse_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_MP6HPP has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_MP6HPP has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_ACED8Y has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_ACED8Y has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_ACED8Y has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_ACED8Y has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1X1WHSN has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_1X1WHSN has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1X1WHSN has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_1X1WHSN has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 474.633 ; gain = 162.723
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 474.633 ; gain = 162.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 474.633 ; gain = 162.723
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/bse_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'bse_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/bse_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'bse_i/zynq_ultra_ps_e_0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_axi_dma_0_0/bse_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'bse_i/axi_dma_0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_axi_dma_0_0/bse_axi_dma_0_0/design_1_axi_dma_0_0_in_context.xdc] for cell 'bse_i/axi_dma_0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_xbar_0/bse_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'bse_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_xbar_0/bse_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'bse_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_rst_ps8_0_100M_0/bse_rst_ps8_0_100M_0/design_1_rst_ps8_0_100M_0_in_context.xdc] for cell 'bse_i/rst_ps8_0_100M'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_rst_ps8_0_100M_0/bse_rst_ps8_0_100M_0/design_1_rst_ps8_0_100M_0_in_context.xdc] for cell 'bse_i/rst_ps8_0_100M'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_smartconnect_0_0/bse_smartconnect_0_0/bse_smartconnect_0_0_in_context.xdc] for cell 'bse_i/smartconnect_0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_smartconnect_0_0/bse_smartconnect_0_0/bse_smartconnect_0_0_in_context.xdc] for cell 'bse_i/smartconnect_0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_byte_statistics_engi_0_0/bse_byte_statistics_engi_0_0/bse_byte_statistics_engi_0_0_in_context.xdc] for cell 'bse_i/byte_statistics_engi_0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_byte_statistics_engi_0_0/bse_byte_statistics_engi_0_0/bse_byte_statistics_engi_0_0_in_context.xdc] for cell 'bse_i/byte_statistics_engi_0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_ds_0/bse_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_ds_0/bse_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_pc_0/bse_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_pc_0/bse_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1564.641 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1564.641 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1564.641 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1564.641 ; gain = 1252.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1564.641 ; gain = 1252.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for bse_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/axi_dma_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/ps8_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/rst_ps8_0_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/smartconnect_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/byte_statistics_engi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bse_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1564.641 ; gain = 1252.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1564.641 ; gain = 1252.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design bse_ps8_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1564.641 ; gain = 1252.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'bse_i/zynq_ultra_ps_e_0/pl_clk0' to pin 'bse_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1983.043 ; gain = 1671.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1983.043 ; gain = 1671.133
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |bse_xbar_0                   |         1|
+|2     |bse_auto_ds_0                |         1|
+|3     |bse_auto_pc_0                |         1|
+|4     |bse_axi_dma_0_0              |         1|
+|5     |bse_byte_statistics_engi_0_0 |         1|
+|6     |bse_rst_ps8_0_100M_0         |         1|
+|7     |bse_smartconnect_0_0         |         1|
+|8     |bse_zynq_ultra_ps_e_0_0      |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------+------+
+|      |Cell                         |Count |
++------+-----------------------------+------+
+|1     |bse_auto_ds_0                |     1|
+|2     |bse_auto_pc_0                |     1|
+|3     |bse_axi_dma_0_0              |     1|
+|4     |bse_byte_statistics_engi_0_0 |     1|
+|5     |bse_rst_ps8_0_100M_0         |     1|
+|6     |bse_smartconnect_0_0         |     1|
+|7     |bse_xbar_0                   |     1|
+|8     |bse_zynq_ultra_ps_e_0_0      |     1|
++------+-----------------------------+------+
+
+Report Instance Areas: 
++------+---------------------+------------------------+------+
+|      |Instance             |Module                  |Cells |
++------+---------------------+------------------------+------+
+|1     |top                  |                        |  2002|
+|2     |  bse_i              |bse                     |  2002|
+|3     |    ps8_0_axi_periph |bse_ps8_0_axi_periph_0  |   814|
+|4     |      s00_couplers   |s00_couplers_imp_MP6HPP |   519|
++------+---------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1993.410 ; gain = 591.492
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 1993.410 ; gain = 1681.500
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2033.648 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 27 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:46 . Memory (MB): peak = 2045.867 ; gain = 1746.219
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2045.867 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/synth_1/bse_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bse_wrapper_utilization_synth.rpt -pb bse_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 27 09:13:46 2026...

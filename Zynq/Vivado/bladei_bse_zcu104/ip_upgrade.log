@@ -1,0 +1,79 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jun 27 09:03:59 2026
+| Host         : DESKTOP-6JDSJ0D running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bse_byte_statistics_engi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of bse_byte_statistics_engi_0_0 (xilinx.com:hls:byte_statistics_engine:1.0) from (Rev. 2114611459) to (Rev. 2114671544)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat May 16 15:24:37 2026
+| Host         : DESKTOP-6JDSJ0D running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bse_byte_statistics_engi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of bse_byte_statistics_engi_0_0 (xilinx.com:hls:byte_statistics_engine:1.0) from (Rev. 2114609581) to (Rev. 2114611459)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri May 15 18:43:09 2026
+| Host         : DESKTOP-6JDSJ0D running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bse_byte_statistics_engi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of bse_byte_statistics_engi_0_0 (xilinx.com:hls:byte_statistics_engine:1.0) from (Rev. 2114603816) to (Rev. 2114609581)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon May 11 07:59:11 2026
+| Host         : DESKTOP-6JDSJ0D running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_byte_statistics_engi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_byte_statistics_engi_0_0 (xilinx.com:hls:byte_statistics_engine:1.0) from (Rev. 2114598757) to (Rev. 2114603816)
+

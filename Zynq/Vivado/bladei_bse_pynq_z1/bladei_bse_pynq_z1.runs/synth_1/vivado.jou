@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jul  1 01:59:28 2026
+# Process ID: 11152
+# Current directory: C:/Users/mcrye/Downloads/bladei_bse_pynq_z1/bladei_bse_pynq_z1.runs/synth_1
+# Command line: vivado.exe -log bse_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bse_wrapper.tcl
+# Log file: C:/Users/mcrye/Downloads/bladei_bse_pynq_z1/bladei_bse_pynq_z1.runs/synth_1/bse_wrapper.vds
+# Journal file: C:/Users/mcrye/Downloads/bladei_bse_pynq_z1/bladei_bse_pynq_z1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bse_wrapper.tcl -notrace

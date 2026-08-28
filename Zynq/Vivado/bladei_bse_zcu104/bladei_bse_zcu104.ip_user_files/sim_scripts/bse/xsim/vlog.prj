@@ -1,0 +1,58 @@
+verilog xil_defaultlib --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/ec67/hdl" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/00a3/hdl" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/979d/hdl/verilog" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/b2d0/hdl/verilog" \
+"../../../bd/bse/ip/bse_zynq_ultra_ps_e_0_0/sim/bse_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/bse/ip/bse_xbar_0/sim/bse_xbar_0.v" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/sim/bd_c34f.v" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_c34f_one_0.v" \
+
+sv xil_defaultlib --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/ec67/hdl" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/00a3/hdl" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/979d/hdl/verilog" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/b2d0/hdl/verilog" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_2/sim/bd_c34f_arsw_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_3/sim/bd_c34f_rsw_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_4/sim/bd_c34f_awsw_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_5/sim/bd_c34f_wsw_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_6/sim/bd_c34f_bsw_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_7/sim/bd_c34f_s00mmu_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_8/sim/bd_c34f_s00tr_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_9/sim/bd_c34f_s00sic_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_10/sim/bd_c34f_s00a2s_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_11/sim/bd_c34f_sarn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_12/sim/bd_c34f_srn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_13/sim/bd_c34f_s01mmu_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_14/sim/bd_c34f_s01tr_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_15/sim/bd_c34f_s01sic_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_16/sim/bd_c34f_s01a2s_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_17/sim/bd_c34f_sawn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_18/sim/bd_c34f_swn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_19/sim/bd_c34f_sbn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_20/sim/bd_c34f_m00s2a_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_21/sim/bd_c34f_m00arn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_22/sim/bd_c34f_m00rn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_23/sim/bd_c34f_m00awn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_24/sim/bd_c34f_m00wn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_25/sim/bd_c34f_m00bn_0.sv" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_26/sim/bd_c34f_m00e_0.sv" \
+
+verilog xil_defaultlib --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/ec67/hdl" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/00a3/hdl" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/979d/hdl/verilog" --include "../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/b2d0/hdl/verilog" \
+"../../../bd/bse/ip/bse_smartconnect_0_0/sim/bse_smartconnect_0_0.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_ebkb.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_ejbC.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_ekbM.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_elbW.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_emb6.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_encg.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_engine_CTRL_s_axi.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_eocq.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_epcA.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_eqcK.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_ercU.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_esc4.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_etde.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_eudo.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_evdy.v" \
+"../../../../bladei_bse_zcu104.srcs/sources_1/bd/bse/ipshared/de07/hdl/verilog/byte_statistics_engine.v" \
+"../../../bd/bse/sim/bse.v" \
+"../../../bd/bse/ip/bse_auto_ds_0/sim/bse_auto_ds_0.v" \
+"../../../bd/bse/ip/bse_auto_pc_0/sim/bse_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
