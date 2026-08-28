@@ -1,0 +1,810 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jun 27 09:13:55 2026
+# Process ID: 23980
+# Current directory: C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1
+# Command line: vivado.exe -log bse_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bse_wrapper.tcl -notrace
+# Log file: C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1/bse_wrapper.vdi
+# Journal file: C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source bse_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mcrye/AppData/Roaming/Xilinx/Vivado/bse_zcu104/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+add_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 302.695 ; gain = 34.535
+Command: link_design -top bse_wrapper -part xczu7ev-ffvc1156-2-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_axi_dma_0_0/bse_axi_dma_0_0.dcp' for cell 'bse_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_byte_statistics_engi_0_0/bse_byte_statistics_engi_0_0.dcp' for cell 'bse_i/byte_statistics_engi_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_rst_ps8_0_100M_0/bse_rst_ps8_0_100M_0.dcp' for cell 'bse_i/rst_ps8_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_smartconnect_0_0/bse_smartconnect_0_0.dcp' for cell 'bse_i/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/bse_zynq_ultra_ps_e_0_0.dcp' for cell 'bse_i/zynq_ultra_ps_e_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_xbar_0/bse_xbar_0.dcp' for cell 'bse_i/ps8_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_ds_0/bse_auto_ds_0.dcp' for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_pc_0/bse_auto_pc_0.dcp' for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 2442 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/bse_zynq_ultra_ps_e_0_0.xdc] for cell 'bse_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_zynq_ultra_ps_e_0_0/bse_zynq_ultra_ps_e_0_0.xdc] for cell 'bse_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_axi_dma_0_0/bse_axi_dma_0_0.xdc] for cell 'bse_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_axi_dma_0_0/bse_axi_dma_0_0.xdc] for cell 'bse_i/axi_dma_0/U0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_rst_ps8_0_100M_0/bse_rst_ps8_0_100M_0_board.xdc] for cell 'bse_i/rst_ps8_0_100M/U0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_rst_ps8_0_100M_0/bse_rst_ps8_0_100M_0_board.xdc] for cell 'bse_i/rst_ps8_0_100M/U0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_rst_ps8_0_100M_0/bse_rst_ps8_0_100M_0.xdc] for cell 'bse_i/rst_ps8_0_100M/U0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_rst_ps8_0_100M_0/bse_rst_ps8_0_100M_0.xdc] for cell 'bse_i/rst_ps8_0_100M/U0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_1/bd_c34f_psr_aclk_0_board.xdc] for cell 'bse_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_1/bd_c34f_psr_aclk_0_board.xdc] for cell 'bse_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_1/bd_c34f_psr_aclk_0.xdc] for cell 'bse_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_smartconnect_0_0/bd_0/ip/ip_1/bd_c34f_psr_aclk_0.xdc] for cell 'bse_i/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_axi_dma_0_0/bse_axi_dma_0_0_clocks.xdc] for cell 'bse_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_axi_dma_0_0/bse_axi_dma_0_0_clocks.xdc] for cell 'bse_i/axi_dma_0/U0'
+Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_ds_0/bse_auto_ds_0_clocks.xdc] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.srcs/sources_1/bd/bse/ip/bse_auto_ds_0/bse_auto_ds_0_clocks.xdc] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl:2]
+all_registers: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1802.648 ; gain = 183.480
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_async_rst.tcl] for cell 'bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gnsckt_wrst.rst_wr_reg2_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'bse_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1803.965 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 142 instances were transformed.
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 16 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 6 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 113 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 5 instances
+
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1803.965 ; gain = 1501.270
+CRITICAL WARNING: [Pfi 67-13] Hardware Handoff file design_1_zynq_ultra_ps_e_0_0.hwdef does not exist for instance bse_i/zynq_ultra_ps_e_0/inst
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1803.965 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: bcd8e63b
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 1827.754 ; gain = 23.789
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 30 inverter(s) to 1737 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: e6a07cdf
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1922.539 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 128 cells and removed 510 cells
+INFO: [Opt 31-1021] In phase Retarget, 56 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+Phase 2 Constant propagation | Checksum: ee7d8a14
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1922.539 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 213 cells and removed 1129 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 55 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: be0378ba
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1922.539 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 1215 cells
+INFO: [Opt 31-1021] In phase Sweep, 129 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: be0378ba
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 1922.539 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1596587d4
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 1922.539 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1596587d4
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:19 . Memory (MB): peak = 1922.539 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 56 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             128  |             510  |                                             56  |
+|  Constant propagation         |             213  |            1129  |                                             55  |
+|  Sweep                        |               0  |            1215  |                                            129  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                             56  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.124 . Memory (MB): peak = 1922.539 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1596587d4
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 1922.539 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=5.272 | TNS=0.000 |
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 10 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 20
+Ending PowerOpt Patch Enables Task | Checksum: 1596587d4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.472 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1596587d4
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:19 . Memory (MB): peak = 4067.480 ; gain = 2144.941
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1596587d4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1596587d4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+45 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:02:08 ; elapsed = 00:01:47 . Memory (MB): peak = 4067.480 ; gain = 2263.516
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1/bse_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file bse_wrapper_drc_opted.rpt -pb bse_wrapper_drc_opted.pb -rpx bse_wrapper_drc_opted.rpx
+Command: report_drc -file bse_wrapper_drc_opted.rpt -pb bse_wrapper_drc_opted.pb -rpx bse_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1/bse_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 93e78f13
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.071 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 145adc8fb
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1ca70c9f9
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1ca70c9f9
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1ca70c9f9
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1bb51c47c
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:00:57 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 2.2 Physical Synthesis In Placer
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for HD net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+----------------------------------------------------------------------------------------------------------------------------------------
+|  Very High Fanout              |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                  |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                 |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  HD Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                         |            0  |              0  |                     0  |           0  |           2  |  00:00:00  |
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2 Physical Synthesis In Placer | Checksum: 19f316204
+
+Time (s): cpu = 00:02:57 ; elapsed = 00:02:14 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 154bf3419
+
+Time (s): cpu = 00:03:05 ; elapsed = 00:02:20 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 154bf3419
+
+Time (s): cpu = 00:03:05 ; elapsed = 00:02:20 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 151425f6e
+
+Time (s): cpu = 00:03:13 ; elapsed = 00:02:27 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: cf458bba
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:02:28 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.4 Small Shape Clustering
+Phase 3.4 Small Shape Clustering | Checksum: f37d3d0f
+
+Time (s): cpu = 00:03:21 ; elapsed = 00:02:33 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.5 Flow Legalize Slice Clusters
+Phase 3.5 Flow Legalize Slice Clusters | Checksum: 1179f353d
+
+Time (s): cpu = 00:03:22 ; elapsed = 00:02:34 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.6 Slice Area Swap
+Phase 3.6 Slice Area Swap | Checksum: 15f3aab32
+
+Time (s): cpu = 00:03:29 ; elapsed = 00:02:40 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.7 Commit Slice Clusters
+Phase 3.7 Commit Slice Clusters | Checksum: 16d7c95cc
+
+Time (s): cpu = 00:03:41 ; elapsed = 00:02:47 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 20229d654
+
+Time (s): cpu = 00:03:46 ; elapsed = 00:02:54 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3.9 Pipeline Register Optimization
+Phase 3.9 Pipeline Register Optimization | Checksum: 14d520a08
+
+Time (s): cpu = 00:03:47 ; elapsed = 00:02:54 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 14d520a08
+
+Time (s): cpu = 00:03:47 ; elapsed = 00:02:54 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: fd967c32
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Place 46-35] Processed net bse_i/byte_statistics_engi_0/inst/ap_phi_mux_abs_delta_sum_phi_fu_4791_p41, inserted BUFG to drive 1022 loads.
+INFO: [Place 46-35] Processed net bse_i/byte_statistics_engi_0/inst/hist_7_V_U/byte_statistics_ebkb_ram_U/E[0], inserted BUFG to drive 1011 loads.
+INFO: [Place 46-35] Processed net bse_i/byte_statistics_engi_0/inst/abs_delta_sum_reg_4787, inserted BUFG to drive 1022 loads.
+INFO: [Place 46-46] BUFG insertion identified 3 candidate nets, 3 success, 0 bufg driver replicated, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1a2180f21
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:03:15 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=4.305. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1962107b4
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:03:16 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1962107b4
+
+Time (s): cpu = 00:04:17 ; elapsed = 00:03:16 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1962107b4
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:03:17 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 259b43109
+
+Time (s): cpu = 00:04:27 ; elapsed = 00:03:26 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 1d317a43e
+
+Time (s): cpu = 00:04:27 ; elapsed = 00:03:26 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1d317a43e
+
+Time (s): cpu = 00:04:28 ; elapsed = 00:03:26 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Ending Placer Task | Checksum: 137797f38
+
+Time (s): cpu = 00:04:28 ; elapsed = 00:03:26 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+75 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:04:37 ; elapsed = 00:03:32 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1/bse_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file bse_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.201 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file bse_wrapper_utilization_placed.rpt -pb bse_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file bse_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.194 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 4ad0f9ae ConstDB: 0 ShapeSum: 29155c35 RouteDB: c3932955
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 82110405
+
+Time (s): cpu = 00:01:40 ; elapsed = 00:01:15 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 374f8ba4 NumContArr: b54c4bee Constraints: a663c866 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 192ff9ff8
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:16 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 192ff9ff8
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:16 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 192ff9ff8
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:01:16 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 1c03df220
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:01:19 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 1b2076e7d
+
+Time (s): cpu = 00:02:11 ; elapsed = 00:01:35 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=4.472  | TNS=0.000  | WHS=-0.077 | THS=-20.785|
+
+Phase 2 Router Initialization | Checksum: 1e73d7a5d
+
+Time (s): cpu = 00:02:27 ; elapsed = 00:01:46 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1eb0719cb
+
+Time (s): cpu = 00:02:47 ; elapsed = 00:01:59 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 7340
+ Number of Nodes with overlaps = 550
+ Number of Nodes with overlaps = 39
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.606  | TNS=0.000  | WHS=-0.007 | THS=-0.012 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 23c9fcaa0
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:02:47 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 17d9e865f
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:02:47 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 17d9e865f
+
+Time (s): cpu = 00:04:06 ; elapsed = 00:02:47 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 246be82df
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:02:54 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.606  | TNS=0.000  | WHS=0.011  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: 246be82df
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:02:54 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 246be82df
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:02:54 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 246be82df
+
+Time (s): cpu = 00:04:18 ; elapsed = 00:02:55 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 17a967b6a
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:03:03 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.606  | TNS=0.000  | WHS=0.011  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 16cebbae3
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:03:03 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 16cebbae3
+
+Time (s): cpu = 00:04:30 ; elapsed = 00:03:04 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.87348 %
+  Global Horizontal Routing Utilization  = 2.38477 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 15e78d4f8
+
+Time (s): cpu = 00:04:32 ; elapsed = 00:03:06 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 15e78d4f8
+
+Time (s): cpu = 00:04:32 ; elapsed = 00:03:06 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 15e78d4f8
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:03:15 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=3.606  | TNS=0.000  | WHS=0.011  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 15e78d4f8
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:03:15 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:03:15 . Memory (MB): peak = 4067.480 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+93 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:04:49 ; elapsed = 00:03:21 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 4067.480 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1/bse_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:13 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file bse_wrapper_drc_routed.rpt -pb bse_wrapper_drc_routed.pb -rpx bse_wrapper_drc_routed.rpx
+Command: report_drc -file bse_wrapper_drc_routed.rpt -pb bse_wrapper_drc_routed.pb -rpx bse_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1/bse_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file bse_wrapper_methodology_drc_routed.rpt -pb bse_wrapper_methodology_drc_routed.pb -rpx bse_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file bse_wrapper_methodology_drc_routed.rpt -pb bse_wrapper_methodology_drc_routed.pb -rpx bse_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/mcrye/Downloads/bladei_bse_zcu104/bladei_bse_zcu104.runs/impl_1/bse_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:43 ; elapsed = 00:00:25 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file bse_wrapper_power_routed.rpt -pb bse_wrapper_power_summary_routed.pb -rpx bse_wrapper_power_routed.rpx
+Command: report_power -file bse_wrapper_power_routed.rpt -pb bse_wrapper_power_summary_routed.pb -rpx bse_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+105 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:30 ; elapsed = 00:00:16 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file bse_wrapper_route_status.rpt -pb bse_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file bse_wrapper_timing_summary_routed.rpt -pb bse_wrapper_timing_summary_routed.pb -rpx bse_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file bse_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file bse_wrapper_clock_utilization_routed.rpt
+report_clock_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 4067.480 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file bse_wrapper_bus_skew_routed.rpt -pb bse_wrapper_bus_skew_routed.pb -rpx bse_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/s01_nodes/s01_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/s01_nodes/s01_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/s01_nodes/s01_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/smartconnect_0/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <bse_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <bse_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force bse_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu7ev'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp input bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_reg_11664_reg input bse_i/byte_statistics_engi_0/inst/tmp_1_reg_11664_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPIP-2] Input pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_reg_11664_reg input bse_i/byte_statistics_engi_0/inst/tmp_1_reg_11664_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/CARRYOUT[3:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp output bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_2_fu_6748_p2 output bse_i/byte_statistics_engi_0/inst/tmp_1_2_fu_6748_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-3] PREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_3_fu_7617_p2 output bse_i/byte_statistics_engi_0/inst/tmp_1_3_fu_7617_p2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/PATTERNDETECT is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/dsp_mult.z1_mult/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1 multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gHYBRID.iHYBRID/one_fabric_mult.dsp_based.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e1.iDSP48E1/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/az_mult_no_combined_adder.az_mult/gDSP.gDSP_only.iDSP/inferred_dsp.reg_mult.m_reg_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp multiplier stage bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/squarer/gDSP.gDSP_only.iDSP/multOp/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_1_reg_11770_reg multiplier stage bse_i/byte_statistics_engi_0/inst/tmp_1_1_reg_11770_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_2_fu_6748_p2 multiplier stage bse_i/byte_statistics_engi_0/inst/tmp_1_2_fu_6748_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_3_fu_7617_p2 multiplier stage bse_i/byte_statistics_engi_0/inst/tmp_1_3_fu_7617_p2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPOP-4] MREG Output pipelining: DSP bse_i/byte_statistics_engi_0/inst/tmp_1_reg_11664_reg multiplier stage bse_i/byte_statistics_engi_0/inst/tmp_1_reg_11664_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+WARNING: [DRC DPREG-7] DSP48E2_PregDynOpmodeZmuxP:: The DSP48E2 cell bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP with the given dynamic OPMODE[6:0] connections may lead to an unregistered asynchronous feedback path without the PREG attribute enabled. Please refer to the user guide and if one of the internal P feedback opmodes is possible for this design the PREG attribute must be set to 1, currently set to 0
+WARNING: [DRC PDRC-153] Gated clock check: Net bse_i/byte_statistics_engi_0/inst/ap_phi_mux_abs_delta_sum_phi_fu_4791_p41_bufg_place is a gated clock net sourced by a combinational pin bse_i/byte_statistics_engi_0/inst/p_4_reg_4702[7]_i_2/O, cell bse_i/byte_statistics_engi_0/inst/p_4_reg_4702[7]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net bse_i/byte_statistics_engi_0/inst/hist_7_V_U/byte_statistics_ebkb_ram_U/E[0]_bufg_place is a gated clock net sourced by a combinational pin bse_i/byte_statistics_engi_0/inst/hist_7_V_U/byte_statistics_ebkb_ram_U/p_0353_0_0147_1_3_reg_12108[7]_i_1/O, cell bse_i/byte_statistics_engi_0/inst/hist_7_V_U/byte_statistics_ebkb_ram_U/p_0353_0_0147_1_3_reg_12108[7]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC RTSTAT-10] No routable loads: 15 net(s) have no routable loads. The problem bus(es) and/or net(s) are bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid, bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid, and bse_i/ps8_0_axi_periph/s00_couplers/auto_ds/inst/gen_downsizer.gen_simple_downsizer.axi_downsizer_inst/USE_READ.read_addr_inst/cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/user_valid.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_ejbC_U1/byte_statistics_engine_ap_faddfsub_2_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.SHIFT_RND/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP1/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/MULT/DSP48E1_SPD_SGL_VARIANT.FIX_MULT/DSP2/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-155] enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_elbW_U3/byte_statistics_engine_ap_fmul_0_max_dsp_32_u/U0/i_synth/MULT.OP/R_AND_R/LAT_OPT.FULL.R_AND_R/DSP48E1_SGL_EXP_IP.OLD_ADD.ADD/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[0].add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/L_path/g_adders[1].add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[1].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/other_precision_bez_add.bez_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/rr/mul/gen_iter[2].rr_mult/zi_add_no_combined_adder.other_precision_zi_add.zi_add/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_combiner_dsp48.addsub_comb/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/gen_sum_addsub_dsp48.sum_addsub/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC AVAL-156] enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND: bse_i/byte_statistics_engi_0/inst/byte_statistics_eqcK_U11/byte_statistics_engine_ap_flog_4_full_dsp_32_u/U0/i_synth/LOG_OP.OP/taylor/other_precisions_z_plus_L_adder.z_plus_L_adder/dsp.one.dsp48e1_add/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+INFO: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (bse_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 83 Warnings, 25 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./bse_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+166 Infos, 84 Warnings, 1 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:01:04 ; elapsed = 00:00:52 . Memory (MB): peak = 4119.938 ; gain = 52.457
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 27 09:26:06 2026...
